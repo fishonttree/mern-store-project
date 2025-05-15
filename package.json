@@ -1,0 +1,29 @@
+{
+  "name": "mern-store-project",
+  "version": "1.0.0",
+  "description": "Webpage storing user-inputted item entries & displaying them",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon backend/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fishonttree/mern-store-project.git"
+  },
+  "type": "module",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fishonttree/mern-store-project/issues"
+  },
+  "homepage": "https://github.com/fishonttree/mern-store-project#readme",
+  "dependencies": {
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "mongoose": "^8.14.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
